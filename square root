@@ -1,0 +1,15 @@
+#include <stdio.h>  
+#include <conio.h>  
+#include <math.h>  
+  
+int main ()  
+{  
+    // declaration of the int, float and double variables  
+    int x, res;  
+    x = 289;  
+    // use the sqrt() function to return integer values   
+    res = sqrt(x);   
+    printf (" The square root of %d is: %d", x, res);    
+      
+    return 0;     
+}  
